@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Salón de Belleza</title>
+</head>
+<body>
+
+    <h1>Bienvenidos al Salón Brillo Y Estilo</h1>
+
+    <p> Nuevo servicio destacado: Spa Capilar Detox </p>
+
+    <h3>Conoce nuestro nuevo tratamiento:</h3>
+
+    <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/3Z5Jp2kVb2w"
+  title="Promoción Salón de Belleza"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+  
+    
+    
+
+    <hr>
+
+    <p>Menú:</p>
+    <a th:href="@{/categorias/listado}">Categorías</a> |
+    <a th:href="@{/servicios/listado}">Servicios</a> |
+    <a th:href="@{/contacto}">Contacto</a>
+
+</body>
+</html>
+ 
